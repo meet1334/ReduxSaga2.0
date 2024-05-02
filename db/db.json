@@ -1,0 +1,58 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "name": "Samsung M40",
+            "price": 15999,
+            "color": "black",
+            "category": "Mobile",
+            "brand": "Samsung",
+            "image": "https://www.shutterstock.com/image-illustration/white-dumy-on-wheelchair-isolated-600nw-1018344007.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Moto G13",
+            "price": 11999,
+            "color": "black",
+            "category": "Mobile",
+            "brand": "Moto",
+            "image": "https://www.shutterstock.com/image-illustration/white-dumy-on-wheelchair-isolated-600nw-1018344007.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Nokia 5g",
+            "price": 10999,
+            "color": "white",
+            "category": "Mobile",
+            "brand": "Nokia",
+            "image": "https://www.shutterstock.com/image-illustration/white-dumy-on-wheelchair-isolated-600nw-1018344007.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Redmi 12 5g",
+            "price": 9999,
+            "color": "blue",
+            "category": "Mobile",
+            "brand": "Xiaomi",
+            "image": "https://www.shutterstock.com/image-illustration/white-dumy-on-wheelchair-isolated-600nw-1018344007.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Redmi 13 5g",
+            "price": 10999,
+            "color": "black",
+            "category": "Mobile",
+            "brand": "Xiaomi",
+            "image": "https://www.shutterstock.com/image-illustration/white-dumy-on-wheelchair-isolated-600nw-1018344007.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Samsung 23",
+            "price": 19999,
+            "color": "white",
+            "category": "Mobile",
+            "brand": "Samsung",
+            "image": "https://www.shutterstock.com/image-illustration/white-dumy-on-wheelchair-isolated-600nw-1018344007.jpg"
+        }
+    ]
+}
