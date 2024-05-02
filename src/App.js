@@ -1,6 +1,8 @@
 
 import { addToCart } from "./Redux/actions";
 import { useDispatch } from "react-redux";
+import Header from "./components/Header";
+import Main from "./components/Main";
 const App = () => {
   const dispatch = useDispatch();
   const productData = {
@@ -9,8 +11,9 @@ const App = () => {
     discount: 10,
   };
   return (
-    <div className="App">
-      <button onClick={() => dispatch(addToCart(productData))}>Add to cart</button>
+    <div>
+      <Header/>
+      <Main/>
     </div>
   );
 };
