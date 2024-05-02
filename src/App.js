@@ -1,5 +1,5 @@
 
-import { addToCart } from "./Redux/actions";
+import { addToCart } from "./Redux/cart/actions";
 import { useDispatch } from "react-redux";
 import Header from "./components/Header";
 import Main from "./components/Main";
