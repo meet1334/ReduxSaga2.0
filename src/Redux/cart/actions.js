@@ -4,7 +4,7 @@ export const addToCart = (data) => {
   console.warn("added to cart action called", data);
   return {
     type: ADD_TO_CART,
-    payload: data,
+    data: data,
   };
 };
 
@@ -12,7 +12,7 @@ export const removeFromCart = (data) => {
   console.warn("item remove from the cart action called", data);
   return {
     type: REMOVE_FROM_CART,
-    payload: data,
+    data: data,
   };
 };
 
