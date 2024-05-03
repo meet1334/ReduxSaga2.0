@@ -1,19 +1,17 @@
-
 import { addToCart } from "./Redux/cart/actions";
 import { useDispatch } from "react-redux";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import { Route, Routes } from "react-router-dom";
+import Cart from "./components/Cart";
 const App = () => {
-  const dispatch = useDispatch();
-  const productData = {
-    name: "IPHONE",
-    price: 26000,
-    discount: 10,
-  };
   return (
     <div>
-      <Header/>
-      <Main/>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
     </div>
   );
 };

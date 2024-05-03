@@ -14,11 +14,11 @@ const Main = () => {
 
   return (
     <div style={{ display: "flex", gap: "20px", flexDirection: "column" }}>
-      <div style={{ display: "flex", margin: "auto" }}>
+      {/* <div style={{ display: "flex", margin: "auto" }}>
         <button onClick={() => dispatch(deleteCart(productData))}>
           Delete cart
         </button>
-      </div>
+      </div> */}
 
       <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>
         {productDatas?.length > 0 &&
@@ -41,7 +41,7 @@ const Main = () => {
                 <button onClick={() => dispatch(addToCart(item))}>
                   Add To Cart
                 </button>
-                <button onClick={() => dispatch(removeFromCart(item.name))}>
+                <button onClick={() => dispatch(removeFromCart(item.id))}>
                   Remove From Cart
                 </button>
               </div>

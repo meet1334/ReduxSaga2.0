@@ -4,12 +4,13 @@ export const cartData = (data = [], action) => {
   switch (action.type) {
     case ADD_TO_CART:
       console.warn("Reducer called ADD TO CART", action);
-      return [action, ...data];
+      return [action.data, ...data];
 
     case REMOVE_FROM_CART:
       console.warn("Reducer called REMOVE FROM CART", action);
-      data.length = data.length ? data.length - 1 : [];
-      return [...data];
+      const remainItems = data.filter((item) => item.id !== action.data);
+      // data.length = data.length ? data.length - 1 : [];
+      return [...remainItems];
 
     case DELETE_CART:
       console.warn("Reducer called DELETED CART", action);
