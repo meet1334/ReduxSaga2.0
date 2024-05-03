@@ -3,9 +3,9 @@ import { useSelector } from "react-redux";
 
 const Cart = () => {
   const cartData = useSelector((state) => state.cartData);
-  let amount = cartData
-    ?.map((item) => item.price)
-    ?.reduce((prev, next) => prev + next);
+  let amount =
+    cartData?.length > 0 &&
+    cartData?.map((item) => item.price)?.reduce((prev, next) => prev + next);
   return (
     <div>
       <h1>Cart Page</h1>
